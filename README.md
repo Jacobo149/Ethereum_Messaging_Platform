@@ -10,3 +10,13 @@ connecting via metamask.
 Hardhat Backend
 Implement messaging with python, C, or javascript
 React Frontend
+
+## Smart Contract Design
+Identity contract: User identities and authentication. Can create/manage account.  
+Messaging Contract: Facilitates exchange of encrypted messages. Encryption, dycryption, storage. Can be stored as encrypted IPFS hashes or encrypted data on-chain.  
+Storage Contract: Bridge between messaging contract and something like IPFS. Users can securely store/retrieve media files associated with their messages. 
+
+## Backend Design
+Hardhat, will provide a command line interface for the chat as a testing basis. Will create libraries to call contract functions before setting up a proper client/server structure.
+
+Reference: https://medium.com/coinmonks/building-a-web3-instant-messaging-application-3308dedd8b63
