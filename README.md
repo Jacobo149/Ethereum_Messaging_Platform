@@ -20,3 +20,14 @@ Storage Contract: Bridge between messaging contract and something like IPFS. Use
 Hardhat, will provide a command line interface for the chat as a testing basis. Will create libraries to call contract functions before setting up a proper client/server structure.
 
 Reference: https://medium.com/coinmonks/building-a-web3-instant-messaging-application-3308dedd8b63
+
+## TODO
+- Test Smart Contracts
+- Start to build backend
+    - Create Alchemy RPC connection to testnet
+    - deploy.js
+    - contract_library.js
+    - hardhat.config.js
+    - main.js?
+- Build out command-line interface before frontend implementation
+    - cmd_interface.js
